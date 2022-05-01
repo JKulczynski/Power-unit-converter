@@ -8,18 +8,18 @@ object powerUnitConverter extends App {
 
   while (true) {
 
-    val choice = readLine("Podaj co chcesz przeliczyć (Km/KW), (Kw,Km), (Nm/LbFt), (LbFt/Nm): ")
+    val choice = readLine("Podaj co chcesz przeliczyć (Km/KW), (Kw/Km), (Nm/LbFt), (LbFt/Nm): ")
     if (choice == "kw") {
       //Konwersja KW na Km
       val kw = readLine("Podaj wartość Kw: ").toInt
       val kwtoKm = KwToKm(kw)
-      val kwResult = "KW: " + kwtoKm.conversion
+      val kwResult = "Km: " + kwtoKm.conversion
       println(kwResult)
     } else if (choice == "km") {
       //Konwersja Km na KW
       val km = readLine("Podaj wartość Km: ").toInt
       val kmToKw = KmToKw(km)
-      val kmResult = "Km: " + kmToKw.conversion
+      val kmResult = "KW: " + kmToKw.conversion
       println(kmResult)
     } else if (choice == "nm") {
       //konwersja Nm na Lb/ft
