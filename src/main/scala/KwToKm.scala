@@ -1,4 +1,4 @@
-class KwToKm(kw: Int) {
+case class KwToKm(kw: Int) {
 
   def conversion: Double = kw * 1.36
 }
