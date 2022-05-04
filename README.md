@@ -1,5 +1,8 @@
-# Power-unit-converter
-This app will help you conver power unit from KW(kilo wats) to Km(pl. Konie mechaniczne)
-also you can conver torque units from lb/ft to Nm 
+# Power Unit Converter
 
-Work in progress
+This app helps you convert units:
+
+1. Power units from KW (_kilo wats_) to Km (_Konie mechaniczne_).
+2. Torque units from lb/ft to Nm
+
+Consider it a work in progress.

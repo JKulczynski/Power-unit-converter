@@ -3,23 +3,21 @@ import org.scalatest.matchers.should
 
 class PowerUnitConverterSpec extends AnyFlatSpec with should.Matchers {
 
-  behavior of "powerUnitConverter"
-
-  it should "return proper coversion value from Km to Kw" in {
+  "PowerUnitConverter" should "return proper conversion value from Km to Kw" in {
     val km = KmToKw(100)
     val actual = km.conversion
     val expected = 74
     actual shouldBe expected
   }
 
-  it should "return proper coversion value from Kw to Km" in {
+  it should "return proper conversion value from Kw to Km" in {
     val kw = KwToKm(100)
     val actual = kw.conversion
     val expected = 136
     actual shouldBe expected
   }
 
-  it should "return proper coversion value from Nm to lb/ft" in {
+  it should "return proper conversion value from Nm to lb/ft" in {
     val nm = NmToLbft(100)
     val actual = nm.conversion
     val expected = 73.8
