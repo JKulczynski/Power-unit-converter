@@ -6,16 +6,16 @@ class PowerUnitConverterSpec extends AnyFlatSpec with should.Matchers {
   behavior of "powerUnitConverter"
 
   it should "return proper coversion value from Km to Kw" in {
-    val km = KmToKw(100)
+    val km = HpToKw(100)
     val actual = km.conversion
-    val expected = 74
+    val expected = 74.5699872
     actual shouldBe expected
   }
 
   it should "return proper coversion value from Kw to Km" in {
-    val kw = KwToKm(100)
+    val kw = KwToHp(100)
     val actual = kw.conversion
-    val expected = 136
+    val expected = 134.10220900000002
     actual shouldBe expected
   }
 
