@@ -36,7 +36,6 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.11" % "test"
 Just clone this repository, and run. After start app will ask you to choose which parameter
 you want to convert.
 
-For example:
 image::hp to kw.PNG[]
 
 *Troubleshooting*
